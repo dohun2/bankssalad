@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  margin: 0;
+}
+
+.login-top {
+  background-color: #08c584;
+}
