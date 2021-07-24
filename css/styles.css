@@ -1,0 +1,14 @@
+@import "/css/variable.css";
+@import "/css/reset.css";
+
+@import "/css/screens/login.css";
+@import "/css/screens/main-list.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  margin: 0;
+}
