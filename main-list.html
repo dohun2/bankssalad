@@ -22,18 +22,20 @@
   <div>
     <div class="main-menu">
       <div class="main-menu__month"><span>◀︎</span><span>10월</span><span>►</span></div>
-      <div class="main-menu__bar"><span>내역</span><span>달력</span><span>통계</span></div>
+      <div class="main-menu__bar"><div>내역</div><div>달력</div><div>통계</div></div>
     </div>
 
-    <div>
-      <div>
-        <span>분류</span>
-        <span><input type="checkbox"> 수입</span>
-        <span><input type="checkbox">지출</span>
+    <div class="list-search">
+      <div class="list-search_01">
+        <div>
+          <span>분류</span>
+          <span><input type="checkbox"> 수입</span>
+          <span><input type="checkbox">지출</span>
+        </div>
         <button>입력 초기화</button>
       </div>
       
-      <div>
+      <div class="list-search_02">
         <form>
           날짜 <input type="date">
           카테고리 <select name = "category">
@@ -51,19 +53,19 @@
         </form>
       </div>
       
-      <div>
+      <div class="list-search_03">
         금액 <input type="text">
         내용 <input type="text">
       </div>
 
-      <div>
-      <button>확인</button> 
+      <div class="list-search_04">
+        <button>확인</button> 
       </div>
     </div>
     
-    <div>
-      <input type="checkbox">수입
-      <input type="checkbox">지출
+    <div class="list-kinds">
+      <span><input type="checkbox">수입</span>
+      <span><input type="checkbox">지출</span>
     </div>
 
     <div>
