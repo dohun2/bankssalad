@@ -30,6 +30,11 @@
   padding: 2px;
 }
 
+.main-box {
+  width: 500px;
+  height: 300px;
+}
+
 .main-menu {
   display: flex;
   flex-direction: column;
@@ -49,7 +54,7 @@
   color: var(--main-data-color);
 }
 
-.main-menu__bar {
+.main-menu__bar--list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,7 +66,7 @@
   margin-bottom: 15px;
 }
 
-.main-menu__bar div {
+.main-menu__bar--list div {
   width: 33%;
   text-align: center;
   padding: 2px;
@@ -69,7 +74,7 @@
   color: var(--main-font-color);
 }
 
-.main-menu__bar div:first-child {
+.main-menu__bar--list div:first-child {
   background-color: var(--main-font-color);
   color: var(--main-color);
 }

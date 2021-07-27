@@ -1,0 +1,37 @@
+.main-menu__bar--calender {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 20px;
+  background-color: var(--main-color);
+  border-radius: 14px;
+  font-size: 10px;
+  margin-bottom: 15px;
+}
+
+.main-menu__bar--calender div {
+  width: 33%;
+  text-align: center;
+  padding: 2px;
+  border-radius: 10px;
+  color: var(--main-font-color);
+}
+
+.main-menu__bar--calender div:nth-child(2) {
+  background-color: var(--main-font-color);
+  color: var(--main-color);
+}
+
+.calender {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.days {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+}
