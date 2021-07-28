@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/styles.css">
-  <title>Main-calender</title>
+  <title>Main-statistics</title>
 </head>
 <body>
   <header class="main-top">
@@ -22,22 +21,28 @@
   <div class="main-box">
     <div class="main-menu">
       <div class="main-menu__month"><span>◀︎</span><span>10월</span><span>►</span></div>
-      <div class="main-menu__bar--calender"><div>내역</div><div>달력</div><div>통계</div></div>
+      <div class="main-menu__bar--statistics"><div>내역</div><div>달력</div><div>통계</div></div>
     </div>
     
-    <div class="calender">
-      <div class="days">
-        <div class="day">일</div>
-        <div class="day">월</div>
-        <div class="day">화</div>
-        <div class="day">수</div>
-        <div class="day">목</div>
-        <div class="day">금</div>
-        <div class="day">토</div>
-      </div>
+    <div class="statistics-kinds">
+    <div>
+      <input type="checkbox"> 카테고리별 지출
+      <input type="checkbox"> 일별 지출
     </div>
-  </div>
-    
+    <span>이번달 지출금액</span>
+    </div>
+
+    <div class="statistics-chart">
+      <div class="statistics-chart__circle"></div>
+    </div>
+
+    <div class="statistics-breakdown">
+      <div>내용</div>
+      <div>%</div>
+      <div>그래프</div>
+      <div>총액</div>
+    </div>
+  </div>  
  </section> 
   
    

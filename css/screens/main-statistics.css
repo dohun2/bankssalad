@@ -1,0 +1,75 @@
+.main-menu__bar--statistics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 20px;
+  background-color: var(--main-color);
+  border-radius: 14px;
+  font-size: 10px;
+  margin-bottom: 15px;
+}
+
+.main-menu__bar--statistics div {
+  width: 33%;
+  text-align: center;
+  padding: 2px;
+  border-radius: 10px;
+  color: var(--main-font-color);
+}
+
+.main-menu__bar--statistics div:last-child {
+  background-color: var(--main-font-color);
+  color: var(--main-color);
+}
+
+.statistics-kinds {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+  font-size: 11px;
+}
+
+.statistics-kinds div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.statistics-chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.statistics-chart__circle {
+  display: flex;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: #31eaa9;
+}
+
+.statistics-breakdown {
+  width: 100%;
+  display: flex;
+  padding: 6px;
+  border: 1px solid #e0e0e0;
+  border-left: none;
+  border-right: none;
+  font-size: 11px;
+}
+
+.statistics-breakdown div:first-child,
+.statistics-breakdown div:nth-child(2) {
+  width: 15%;
+}
+.statistics-breakdown div:nth-child(3) {
+  width: 55%;
+}
+.statistics-breakdown div:last-child {
+  width: 15%;
+}
