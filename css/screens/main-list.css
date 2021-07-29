@@ -80,9 +80,11 @@
 }
 
 .list-search {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   display: flex;
   flex-direction: column;
+  align-items: stretch;
+  font-size: 11px;
 }
 
 .list-search_01,
@@ -95,6 +97,25 @@
 .list-search_01 {
   display: flex;
   justify-content: space-between;
+}
+
+.list-search_01 button {
+  border: none;
+  font-size: 11px;
+}
+
+.list-search_02 select,
+.list-search_02 input,
+.list-search_03 input {
+  background-color: var(--main-bg-color);
+  border: none;
+  border-bottom: var(--gray-border);
+  font-size: 11px;
+}
+
+.list-search_02 span,
+.list-search_03 span {
+  margin-right: 3px;
 }
 
 .list-search_04 button {
@@ -111,7 +132,80 @@
   justify-content: center;
   align-items: center;
   color: var(--main-color);
+  font-size: 11px;
 }
 .list-kinds span:first-child {
-  color: #fd4216;
+  color: var(--red);
+}
+
+.list-breakdown {
+  display: flex;
+  flex-direction: column;
+  font-size: 11px;
+}
+
+.list-breakdown__date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: var(--gray-border);
+  border-left: none;
+  border-right: none;
+  padding: 5px;
+}
+.list-breakdown__date div:first-child {
+  width: 80%;
+}
+
+.list-breakdown__date--contents {
+  display: flex;
+  flex-direction: row;
+  color: var(--red);
+  width: 20%;
+}
+.list-breakdown__date--contents div:first-child {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.list-breakdown__date--contents div:last-child {
+  color: var(--main-color);
+  margin-left: 10px;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.list-breakdown__contents {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: var(--gray-border);
+  padding: 5px;
+}
+
+.list-breakdown__contents div:first-child {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--main-color);
+  padding: 2px;
+  border-radius: 10px;
+  color: var(--main-font-color);
+  margin-right: 5px;
+}
+.list-breakdown__contents div:nth-child(2) {
+  width: 55%;
+  display: flex;
+  justify-content: flex-start;
+}
+.list-breakdown__contents div:nth-child(3) {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+}
+.list-breakdown__contents div:last-child {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
 }

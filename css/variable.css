@@ -4,4 +4,6 @@
   --main-font-color: white;
   --main-data-color: black;
   --border: 1px solid gainsboro;
+  --gray-border: 1px solid #e0e0e0;
+  --red: #fd4216;
 }
