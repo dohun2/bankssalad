@@ -25,6 +25,7 @@
 
 .calender {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -34,4 +35,19 @@
   width: 80%;
   justify-content: space-around;
   align-items: center;
+}
+
+.dates {
+  display: flex;
+  flex-flow: row wrap;
+  height: 300px;
+  border-top: var(--gray-border);
+  border-right: var(--gray-border);
+}
+
+.date {
+  width: calc(100% / 7);
+  text-align: right;
+  border-bottom: var(--gray-border);
+  border-left: var(--gray-border);
 }
