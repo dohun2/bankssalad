@@ -28,18 +28,26 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 11px;
 }
 
 .days {
+  width: 90%;
   display: flex;
-  width: 80%;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.day {
+  width: calc(100% / 7);
 }
 
 .dates {
   display: flex;
   flex-flow: row wrap;
+  width: 90%;
   height: 300px;
   border-top: var(--gray-border);
   border-right: var(--gray-border);
@@ -47,7 +55,12 @@
 
 .date {
   width: calc(100% / 7);
-  text-align: right;
+  text-align: lift;
   border-bottom: var(--gray-border);
   border-left: var(--gray-border);
+  padding: 3px;
+}
+
+.other {
+  opacity: 0.3;
 }
