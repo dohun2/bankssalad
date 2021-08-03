@@ -40,11 +40,15 @@
   border: var(--border);
 }
 
-.login-form__box input:last-child {
+#login-form__box--btn {
   margin-top: 15px;
   color: var(--main-font-color);
   background-color: var(--main-color);
   border: none;
+}
+
+#login-form__box--btn:hover {
+  background-color: #13b57c;
 }
 
 .login-form__text {

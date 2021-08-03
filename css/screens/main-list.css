@@ -30,6 +30,10 @@
   padding: 2px;
 }
 
+.main-top__btn button:last-child:hover {
+  background-color: whitesmoke;
+}
+
 .main-box {
   width: 500px;
   height: 500px;
@@ -64,6 +68,10 @@
   border-radius: 14px;
   font-size: 10px;
   margin-bottom: 15px;
+}
+
+.main-menu__bar--list:hover {
+  background-color: #13b57c;
 }
 
 .main-menu__bar--list div {
@@ -104,6 +112,10 @@
   font-size: 11px;
 }
 
+.list-search_01 button:hover {
+  background-color: #c6c6c6;
+}
+
 .list-search_02 select,
 .list-search_02 input,
 .list-search_03 input {
@@ -118,6 +130,9 @@
   margin-right: 3px;
 }
 
+.list-search_04 button:hover {
+  background-color: #13b57c;
+}
 .list-search_04 button {
   width: 100%;
   height: 30px;

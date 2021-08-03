@@ -10,6 +10,10 @@
   margin-bottom: 15px;
 }
 
+.main-menu__bar--calendar:hover {
+  background-color: #13b57c;
+}
+
 .main-menu__bar--calendar div {
   width: 33%;
   text-align: center;

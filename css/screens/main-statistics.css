@@ -10,6 +10,10 @@
   margin-bottom: 15px;
 }
 
+.main-menu__bar--statistics:hover {
+  background-color: #13b57c;
+}
+
 .main-menu__bar--statistics div {
   width: 33%;
   text-align: center;
